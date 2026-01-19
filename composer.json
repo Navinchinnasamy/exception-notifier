@@ -1,0 +1,42 @@
+{
+    "name": "navin/exception-notifier",
+    "description": "A beautiful, responsive exception email notification package for Laravel and Lumen applications",
+    "keywords": ["laravel", "lumen", "exception", "email", "notification", "responsive", "error-handling"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Navin",
+            "email": "navin@novactech.in",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "illuminate/mail": "^5.3|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/support": "^5.3|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "nesbot/carbon": "^1.0|^2.0|^3.0"
+    },
+    "suggest": {
+        "swiftmailer/swiftmailer": "Required for Laravel/Lumen 5.3-5.8 compatibility"
+    },
+    "autoload": {
+        "psr-4": {
+            "Navin\\ExceptionNotifier\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Navin\\ExceptionNotifier\\ExceptionNotifierServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "homepage": "https://github.com/navin/exception-notifier",
+    "support": {
+        "issues": "https://github.com/navin/exception-notifier/issues",
+        "source": "https://github.com/navin/exception-notifier"
+    }
+}
