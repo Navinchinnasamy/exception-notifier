@@ -1,4 +1,4 @@
-# SFL Exception Notifier
+# Exception Notifier
 
 A Laravel/Lumen package for sending email notifications when exceptions occur in your application.
 
@@ -14,7 +14,7 @@ A Laravel/Lumen package for sending email notifications when exceptions occur in
 ## Installation
 
 ```bash
-composer require sfl/exception-notifier
+composer require navin/exception-notifier
 ```
 
 ## Configuration
